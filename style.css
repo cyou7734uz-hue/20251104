@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+/* Chiron GoRound TC helper classes
+   使用範例：
+     <div class="chiron-goround-tc-600">淡江大學</div>
+   或使用預設粗細：
+     <div class="chiron-goround-tc">淡江大學</div>
+*/
+.chiron-goround-tc {
+  font-family: "Chiron GoRound TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* 預設 SemiBold */
+  font-style: normal;
+}
+
+/* 各種可選粗細的 uniquifier 類別 */
+.chiron-goround-tc-200 { font-family: "Chiron GoRound TC", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; }
+.chiron-goround-tc-300 { font-family: "Chiron GoRound TC", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal; }
+.chiron-goround-tc-400 { font-family: "Chiron GoRound TC", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; }
+.chiron-goround-tc-500 { font-family: "Chiron GoRound TC", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; }
+.chiron-goround-tc-600 { font-family: "Chiron GoRound TC", sans-serif; font-optical-sizing: auto; font-weight: 600; font-style: normal; }
+.chiron-goround-tc-700 { font-family: "Chiron GoRound TC", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; }
+.chiron-goround-tc-800 { font-family: "Chiron GoRound TC", sans-serif; font-optical-sizing: auto; font-weight: 800; font-style: normal; }
+.chiron-goround-tc-900 { font-family: "Chiron GoRound TC", sans-serif; font-optical-sizing: auto; font-weight: 900; font-style: normal; }
